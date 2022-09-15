@@ -1,3 +1,5 @@
+package lab4;
+
 public abstract class Edition {
     private String author;
 

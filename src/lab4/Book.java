@@ -1,3 +1,5 @@
+package lab4;
+
 public class Book extends Edition{
     private String title;
     private int year;

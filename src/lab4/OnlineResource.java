@@ -1,3 +1,5 @@
+package lab4;
+
 public class OnlineResource extends Edition{
     private String title;
     private String link;

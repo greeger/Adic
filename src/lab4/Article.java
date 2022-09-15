@@ -1,3 +1,5 @@
+package lab4;
+
 public class Article extends Edition{
     private String title;
     private String magazine;

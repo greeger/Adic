@@ -1,10 +1,18 @@
+import lab3.Building;
+import lab3.HeatingSystem;
+import lab4.Article;
+import lab4.Book;
+import lab4.Edition;
+import lab4.OnlineResource;
+import labStrings.StringUtils;
+
 import java.util.ArrayList;
 import java.util.List;
 import java.util.stream.Collectors;
 
 public class Main {
     public static void main(String[] args) {
-        List<Edition> listOfEditions = new ArrayList<Edition>();
+        /*List<Edition> listOfEditions = new ArrayList<Edition>();
         listOfEditions.add(new Book("книга 1", "автор 1", 2000, "Москва"));
         listOfEditions.add(new Book("книга 1", "автор 1", 2000, "Москва"));
         listOfEditions.add(new Book("книга 2", "автор 2", 1990, "Самара"));
@@ -23,7 +31,21 @@ public class Main {
         listOfEditions.stream()
                 .filter((a) -> a.getAuthor().equals(author))
                 .collect(Collectors.toList())
-                .stream().forEach((a) -> a.print());
+                .stream().forEach((a) -> a.print());*/
+
+        Building building = new Building(new HeatingSystem(false, false), 20);
+        building.getHeatingSystem().enable();
+        building.getHeatingSystem().fill();
+        System.out.println(building);
+
+        System.out.println("\n");
+
+        StringUtils stringUtils = new StringUtils("АА,,  ыы.. аЫ; ооАОаа fdsFDdfs");
+        System.out.println(stringUtils.getSpaces());
+        stringUtils.toUpperCase();
+        System.out.println(stringUtils.getLine());
+        stringUtils.removePunctuationMarks();
+        System.out.println(stringUtils.getLine());
 
     }
 }
