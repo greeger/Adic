@@ -1,19 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="edfde92f-1f3b-4e1c-91ff-160d80f4f534" name="Changes" comment="commit 2">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lab3/Building.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lab3/HeatingSystem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/labStrings/StringUtils.java" afterDir="false" />
+    <list default="true" id="edfde92f-1f3b-4e1c-91ff-160d80f4f534" name="Changes" comment="lab3 + strings">
+      <change afterPath="$PROJECT_DIR$/src/lab2/Triangle.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Article.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lab4/Article.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lab4/Book.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Edition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lab4/Edition.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/OnlineResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lab4/OnlineResource.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lab5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lab5/lab5.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,15 +32,15 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "settings.editor.selected.configurable": "sshConsole"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;sshConsole&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Application.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
@@ -88,7 +79,8 @@
       <workItem from="1662616380806" duration="1176000" />
       <workItem from="1662648196788" duration="3076000" />
       <workItem from="1662659941756" duration="953000" />
-      <workItem from="1663249265430" duration="8057000" />
+      <workItem from="1663249265430" duration="8636000" />
+      <workItem from="1663682056674" duration="1431000" />
     </task>
     <task id="LOCAL-00001" summary="commit 2">
       <created>1662655984106</created>
@@ -97,7 +89,14 @@
       <option name="project" value="LOCAL" />
       <updated>1662655984106</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="lab3 + strings">
+      <created>1663257743260</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1663257743260</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -116,6 +115,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="commit 2" />
-    <option name="LAST_COMMIT_MESSAGE" value="commit 2" />
+    <MESSAGE value="lab3 + strings" />
+    <option name="LAST_COMMIT_MESSAGE" value="lab3 + strings" />
   </component>
 </project>

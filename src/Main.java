@@ -1,3 +1,4 @@
+import lab2.Triangle;
 import lab3.Building;
 import lab3.HeatingSystem;
 import lab4.Article;
@@ -33,7 +34,7 @@ public class Main {
                 .collect(Collectors.toList())
                 .stream().forEach((a) -> a.print());*/
 
-        Building building = new Building(new HeatingSystem(false, false), 20);
+        /*Building building = new Building(new HeatingSystem(false, false), 20);
         building.getHeatingSystem().enable();
         building.getHeatingSystem().fill();
         System.out.println(building);
@@ -45,7 +46,18 @@ public class Main {
         stringUtils.toUpperCase();
         System.out.println(stringUtils.getLine());
         stringUtils.removePunctuationMarks();
-        System.out.println(stringUtils.getLine());
+        System.out.println(stringUtils.getLine());*/
+
+
+        Triangle triangle = new Triangle(1, 1, 3);
+        System.out.println(triangle);
+        triangle.plusPlus();
+        System.out.println(triangle);
+        triangle.multiply(1.5);
+        System.out.println(triangle);
+        System.out.println(triangle.isTriangle());
+
+        System.out.println((new Triangle(1, 1, 1)).isTriangle());
 
     }
 }
