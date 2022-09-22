@@ -3,7 +3,7 @@ package lab5;
 public class lab5Time {
     static int getSeconds(int hours, int minutes) throws IllegalArgumentException{
         if (hours < 0 || minutes < 0)
-            throw new IllegalArgumentException("Âðåìÿ íå ìîæåò áûòü îòðèöàòåëüíûì!");
+            throw new IllegalArgumentException("Ð’Ñ€ÐµÐ¼Ñ Ð½Ðµ Ð¼Ð¾Ð¶ÐµÑ‚ Ð±Ñ‹Ñ‚ÑŒ Ð¾Ñ‚Ñ€Ð¸Ñ†Ð°Ñ‚ÐµÐ»ÑŒÐ½Ñ‹Ð¼!");
         return hours*3600 + minutes*60;
     }
 
