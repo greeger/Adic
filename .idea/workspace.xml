@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="edfde92f-1f3b-4e1c-91ff-160d80f4f534" name="Changes" comment="lab3 + strings">
-      <change afterPath="$PROJECT_DIR$/src/lab2/Triangle.java" afterDir="false" />
+    <list default="true" id="edfde92f-1f3b-4e1c-91ff-160d80f4f534" name="Changes" comment="lab2">
+      <change afterPath="$PROJECT_DIR$/src/lab5/lab5Time.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,10 +40,23 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;sshConsole&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="Application.lab5Time">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="abstractClass" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="lab5Time" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lab5.lab5Time" />
+      <module name="abstractClass" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lab5.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -58,6 +70,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.lab5Time" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.lab5.lab5" />
       </list>
@@ -80,7 +93,8 @@
       <workItem from="1662648196788" duration="3076000" />
       <workItem from="1662659941756" duration="953000" />
       <workItem from="1663249265430" duration="8636000" />
-      <workItem from="1663682056674" duration="1431000" />
+      <workItem from="1663682056674" duration="2803000" />
+      <workItem from="1663851435035" duration="621000" />
     </task>
     <task id="LOCAL-00001" summary="commit 2">
       <created>1662655984106</created>
@@ -96,7 +110,14 @@
       <option name="project" value="LOCAL" />
       <updated>1663257743260</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="lab2">
+      <created>1663683796738</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1663683796738</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -116,6 +137,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="commit 2" />
     <MESSAGE value="lab3 + strings" />
-    <option name="LAST_COMMIT_MESSAGE" value="lab3 + strings" />
+    <MESSAGE value="lab2" />
+    <option name="LAST_COMMIT_MESSAGE" value="lab2" />
   </component>
 </project>
